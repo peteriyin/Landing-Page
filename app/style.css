@@ -6,3 +6,31 @@
 body {
   font-family: "Merriweather", "Playwrite+AU+QLD", "Winky Rough";
 }
+
+header {
+  background-color: #1f2937;
+  color: #fff;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+button {
+  padding: 8px 20px;
+  background-color: #3882f6;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #246fe7;
+}
