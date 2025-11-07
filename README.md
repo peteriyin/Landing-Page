@@ -1,5 +1,6 @@
 # Credits
 
-annaklim (Favicon)
+Annaklim (Favicon)
 Milad Fakurian (Image)
 Pixsite (Header Logo)
+The Odin Project (Inspiration)

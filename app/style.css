@@ -3,13 +3,74 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 body {
-  font-family: "Merriweather", "Playwrite+AU+QLD", "Winky Rough";
+  font-family: "Merriweather", "Playwrite+AU+QLD", "Winky Rough", "Roboto",
+    "Times New Roman", Times, serif;
 }
 
-header {
+.header {
   background-color: #1f2937;
-  color: #fff;
+  height: 350px;
+  width: 100%;
+}
+
+.info-container {
+  display: flex;
+  justify-content: center;
+}
+
+.info {
+  display: flex;
+  width: 900px;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.whale-image {
+  flex-shrink: 0;
+  /* display: flex; */
+  justify-self: flex-start;
+}
+
+.links ul {
+  display: flex;
+  gap: 60px;
+}
+
+.hero-img-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.hero-img {
+  display: flex;
+  width: 900px;
+  gap: 60px;
+}
+
+h2 {
+  font-size: 48px;
+  color: #f9faf6;
+}
+
+.motto,
+a {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+#whales {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 24px;
+  color: #f9faf6;
+}
+
+.motto {
+  padding-top: 20px;
+  padding-bottom: 50px;
 }
 
 li {
@@ -17,17 +78,16 @@ li {
 }
 
 a {
-  color: #fff;
   text-decoration: none;
 }
 
 button {
-  padding: 8px 20px;
+  padding: 8px 25px;
   background-color: #3882f6;
   color: #fff;
   font-weight: bold;
   border: none;
-  border-radius: 10px;
+  border-radius: 5px;
   cursor: pointer;
 }
 
