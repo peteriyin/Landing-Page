@@ -121,7 +121,7 @@ button:hover {
   gap: 80px;
 }
 
-.quote-section-container {
+.review-section-container {
   background-color: #e5e7eb;
   height: 350px;
   display: flex;
@@ -130,7 +130,7 @@ button:hover {
   flex-direction: column;
 }
 
-.quote-section {
+.review-section {
   width: 600px;
   /* border: solid; */
   font-size: 30px;
@@ -141,10 +141,11 @@ button:hover {
   letter-spacing: -0.5px;
 }
 
-.review {
+.reviewer {
   /* border: solid; */
   width: 600px;
   font-weight: bold;
   display: flex;
   justify-content: flex-end;
+  padding-top: 10px;
 }
